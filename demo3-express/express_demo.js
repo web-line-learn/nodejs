@@ -1,15 +1,22 @@
 var express= require('express');
 var app= express();
 
-//Ïàµ±ÓÚspring mvcµÄcontroller
+//ç›¸å½“äºspring mvcçš„controller
 app.get('/',function(req,resp){
+    console.log("ä¸»é¡µ GET è¯·æ±‚");
 	resp.send("Hello Express!");
 })
 
-//  POST ÇëÇó
+//  POST è¯·æ±‚
 app.post('/', function (req, res) {
-   console.log("Ö÷Ò³ POST ÇëÇó");
+   console.log("ä¸»é¡µ POST è¯·æ±‚");
    res.send('Hello POST');
+})
+
+//  /list_user é¡µé¢ GET è¯·æ±‚
+app.get('/list_user', function (req, res) {
+   console.log("/list_user GET è¯·æ±‚");
+   res.send('ç”¨æˆ·åˆ—è¡¨é¡µé¢');
 })
 
 
@@ -17,7 +24,7 @@ var server=app.listen(8081,function(){
 	 var host = server.address().address
       var port = server.address().port
  
-  console.log("Ó¦ÓÃÊµÀı£¬·ÃÎÊµØÖ·Îª http://%s:%s", host, port)
+   console.log("åº”ç”¨å®ä¾‹ï¼Œè®¿é—®åœ°å€ä¸º http://%s:%s", host, port)
 })
 
-// ÔËĞĞÃüÁî node express_demo.js ¿É²é¿´½á¹û
+// è¿è¡Œå‘½ä»¤ node express_demo.js å³å¯æŸ¥çœ‹ç»“æœ
