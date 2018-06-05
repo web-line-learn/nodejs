@@ -1,22 +1,30 @@
-# node ÈëÃÅÑ§Ï°Ê¾Àı
-- ½öÏŞÓÚÈëÃÅÑ§Ï°,²¢²»ÉîÈëÁË½â,Ö÷ÒªÑ§Ï°npmµÄÊ¹ÓÃ,ÁË½ânode.js µÄÄ£¿éÏµÍ³
-- npn Ê¹ÓÃ×Ü½á http://note.youdao.com/noteshare?id=401e281901c15efb7aeee4804d97557a&sub=D49FFCB589684CE9ACCD85467B631AE0
-- node.js Ä£¿éÏµÍ³×Ü½á http://note.youdao.com/noteshare?id=6271fc3ab02ddf309efe7020bace005b&sub=694E5E748F1647009A2596C2153BCF7C
+#node å…¥é—¨å­¦ä¹ ç¤ºä¾‹
+- ä»…é™äºå…¥é—¨å­¦ä¹ ,å¹¶ä¸æ·±å…¥äº†è§£,ä¸»è¦å­¦ä¹ npmçš„ä½¿ç”¨,äº†è§£node.js çš„æ¨¡å—ç³»ç»Ÿ
+- npn ä½¿ç”¨æ€»ç»“ http://note.youdao.com/noteshare?id=401e281901c15efb7aeee4804d97557a&sub=D49FFCB589684CE9ACCD85467B631AE0
+- node.js æ¨¡å—ç³»ç»Ÿæ€»ç»“ http://note.youdao.com/noteshare?id=6271fc3ab02ddf309efe7020bace005b&sub=694E5E748F1647009A2596C2153BCF7C
 
-# ²Î¿¼ÎÄµµ
+# æ¨¡å—ä»‹ç»
+- demo1-server node å…¥é—¨ç¤ºä¾‹
+- demo2-module æ¨¡å—åŒ–
+- demo3-express express ç¤ºä¾‹
+- demo4-spider node çˆ¬è™«ç¤ºä¾‹
+å‚è€ƒæ–‡æ¡£: [10åˆ†é’Ÿæ•™ä½ æ’¸ä¸€ä¸ªnodejsçˆ¬è™«ç³»ç»Ÿ](https://segmentfault.com/a/1190000009542336)
+[nodejsçš„requestæ¨¡å—ï¼Œè·å–ç›®æ ‡é¡µé¢çš„htmlä»£ç ](https://github.com/request/request)
+[superagent é¡µé¢æ•°æ®ä¸‹è½½](http://visionmedia.github.io/superagent/)
+[cheerio é¡µé¢æ•°æ®è§£æ](https://cheerio.js.org/)
+[exprerss ](http://www.expressjs.com.cn/)
+
+# å‚è€ƒæ–‡æ¡£
 http://www.runoob.com/nodejs/nodejs-install-setup.html
 
-# ×Ü½áÎÄµµ
+# æ€»ç»“æ–‡æ¡£
 http://note.youdao.com/noteshare?id=44b0bf55c631af5828289d400b6cf8ff
 
-# ÆäËûÌØĞÔ
-- Node.js »Øµ÷º¯Êı  http://www.runoob.com/nodejs/nodejs-callback.html
-Node Ê¹ÓÃÁË´óÁ¿µÄ»Øµ÷º¯Êı£¬Node ËùÓĞ API ¶¼Ö§³Ö»Øµ÷º¯Êı¡£
+# å…¶ä»–ç‰¹æ€§
+- Node.js å›è°ƒå‡½æ•° http://www.runoob.com/nodejs/nodejs-callback.html Node ä½¿ç”¨äº†å¤§é‡çš„å›è°ƒå‡½æ•°ï¼ŒNode æ‰€æœ‰ API éƒ½æ”¯æŒå›è°ƒå‡½æ•°ã€‚
 
+- Node.jsæ¨¡å—ç³»ç»Ÿ http://www.runoob.com/nodejs/nodejs-module-system.html ä¸ºäº†è®©Node.jsçš„æ–‡ä»¶å¯ä»¥ç›¸äº’è°ƒç”¨ï¼ŒNode.jsæä¾›äº†ä¸€ä¸ªç®€å•çš„æ¨¡å—ç³»ç»Ÿã€‚
 
-- Node.jsÄ£¿éÏµÍ³   http://www.runoob.com/nodejs/nodejs-module-system.html
-ÎªÁËÈÃNode.jsµÄÎÄ¼ş¿ÉÒÔÏà»¥µ÷ÓÃ£¬Node.jsÌá¹©ÁËÒ»¸ö¼òµ¥µÄÄ£¿éÏµÍ³¡£
+æ¨¡å—æ˜¯Node.js åº”ç”¨ç¨‹åºçš„åŸºæœ¬ç»„æˆéƒ¨åˆ†ï¼Œæ–‡ä»¶å’Œæ¨¡å—æ˜¯ä¸€ä¸€å¯¹åº”çš„ã€‚
 
-Ä£¿éÊÇNode.js Ó¦ÓÃ³ÌĞòµÄ»ù±¾×é³É²¿·Ö£¬ÎÄ¼şºÍÄ£¿éÊÇÒ»Ò»¶ÔÓ¦µÄ¡£
-
-»»ÑÔÖ®£¬Ò»¸ö Node.js ÎÄ¼ş¾ÍÊÇÒ»¸öÄ£¿é£¬Õâ¸öÎÄ¼ş¿ÉÄÜÊÇJavaScript ´úÂë¡¢JSON »òÕß±àÒë¹ıµÄC/C++ À©Õ¹¡£
+æ¢è¨€ä¹‹ï¼Œä¸€ä¸ª Node.js æ–‡ä»¶å°±æ˜¯ä¸€ä¸ªæ¨¡å—ï¼Œè¿™ä¸ªæ–‡ä»¶å¯èƒ½æ˜¯JavaScript ä»£ç ã€JSON æˆ–è€…ç¼–è¯‘è¿‡çš„C/C++ æ‰©å±•ã€‚
